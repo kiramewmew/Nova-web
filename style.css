@@ -67,7 +67,7 @@ h3 {
 }
 .video-contenedor {
   position: relative;
-  padding-bottom: 56.25%; /* Relación 16:9 */
+  padding-bottom: 100%; /* Relación 16:9 */
   margin-top: 15px;
 }
 .video-contenedor iframe {
