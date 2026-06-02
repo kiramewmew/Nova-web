@@ -8,7 +8,7 @@
 }
 
 .mi-header {
-    background-color: #4a2e7d; /* Verde institucional */
+    background-color: #363287; /* Verde institucional */
     color: white;
     text-align: center;
     padding: 15px;
@@ -128,6 +128,6 @@ h3 {
 
 /* 🔥 EFECTO HOVER: Animación al pasar el mouse o tocar */
 #navegacion a:hover {
-  background-color: #4caf50; /* Cambia a un verde más claro */
-  padding-left: 25px; /* Efecto dinámico: el texto se mueve a la derecha */
+  background-color: #b29bc7; /* Cambia a un verde más claro */
+  padding-left: 35px; /* Efecto dinámico: el texto se mueve a la derecha */
 }
