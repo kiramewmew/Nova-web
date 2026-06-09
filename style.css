@@ -69,7 +69,7 @@ h3 {
 
 /* Controla que todas las fotos queden del mismo tamaño y estilizadas */
 .img-proyecto {
-  width: 500px;
+  width: 800px;
   height: 200px; /* Altura fija para que jueguen a ser fotógrafos */
   object-fit: cover; /* Recorta la imagen mágicamente para que no se estire feo */
   border-radius: 12px;
