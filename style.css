@@ -65,6 +65,7 @@ h3 {
   flex-direction: column;
   gap: 15px; /* Separa las fotos de forma elegante */
   margin-top: 10px;
+  background-color: #000806;
 }
 
 /* Controla que todas las fotos queden del mismo tamaño y estilizadas */
