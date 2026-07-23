@@ -47,6 +47,10 @@
     background-color: #e8f5e9;
     filter: brightness(0.8);
 }
+.card:hover .icon {
+  transform: scale(1.2) rotate(15deg); /* Se agranda un 20% y gira 15 grados */
+  color: #4caf50;
+}
 
 .icon {
     font-size: 40px;
@@ -66,6 +70,7 @@ h3 {
   gap: 15px; /* Separa las fotos de forma elegante */
   margin-top: 10px;
   background-color: #000806;
+  animation: aparecerSuave 0.8s ease-out;
 }
 
 /* Controla que todas las fotos queden del mismo tamaño y estilizadas */
@@ -166,4 +171,16 @@ input:focus, textarea:focus {
 textarea {
   height: 100px;
   resize: none; /* Bloquea el tamaño para que no deforme la app */
+}
+
+/* 🎭 CREACIÓN DE UNA ANIMACIÓN PERSONALIZADA */
+@keyframes aparecerSuave {
+  from {
+    opacity: 0; /* Empieza invisible */
+    transform: translateY(20px); /* Empieza 20 píxeles más abajo */
+  }
+  to {
+    opacity: 1; /* Termina totalmente visible */
+    transform: translateY(0); /* Termina en su posición original */
+  }
 }
